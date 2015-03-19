@@ -33,8 +33,8 @@ The script dumps git commands, and between each is a sleep delay to keep from
 slamming GitHub too badly. Just redirect output into a file and then 'source'
 or '/bin/bash' the file to execute it.
 
-In case you need a soundtrack...
+It takes a while, so here's a soundtrack:
 
-YT("m1cRGVaJF7Y",print = TRUE)
+[![Front 242: Headhunter](http://img.youtube.com/vi/m1cRGVaJF7Y/0.jpg)](http://www.youtube.com/watch?v=m1cRGVaJF7Y)
 
 Enjoy!
