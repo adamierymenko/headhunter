@@ -1,11 +1,14 @@
 headhunter: pull every GitHub repo in a geographic area
 ------
 
-This utility consists of a small NodeJS program to dump every GitHub
-repository in a local area, and a shell script to pull them all.
+This utility consists of a small NodeJS program to dump 'git clone'
+commands to pull every repository in a geographic area or city.
 
 From there you can grep the code, perform analytics on it, anything you
-want to find potential candidates with relevant coding skills.
+want to find potential candidates with relevant coding skills. Note that
+there are lots of great candidates out there without much on GitHub so
+this is by no means an exhaustive search, but I wrote this because I
+thought it was one interesting avenue to pursue.
 
 To use:
 
@@ -32,6 +35,6 @@ or '/bin/bash' the file to execute it.
 
 In case you need a soundtrack...
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/m1cRGVaJF7Y" frameborder="0" allowfullscreen></iframe>
+YT("m1cRGVaJF7Y",print = TRUE)
 
 Enjoy!
