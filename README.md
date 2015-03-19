@@ -33,7 +33,7 @@ The script dumps git commands, and between each is a sleep delay to keep from
 slamming GitHub too badly. Just redirect output into a file and then 'source'
 or '/bin/bash' the file to execute it.
 
-It takes a while, so here's a soundtrack:
+It takes a while, so click here for a soundtrack:
 
 [![Front 242: Headhunter](http://img.youtube.com/vi/m1cRGVaJF7Y/0.jpg)](http://www.youtube.com/watch?v=m1cRGVaJF7Y)
 
