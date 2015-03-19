@@ -33,6 +33,10 @@ The script dumps git commands, and between each is a sleep delay to keep from
 slamming GitHub too badly. Just redirect output into a file and then 'source'
 or '/bin/bash' the file to execute it.
 
+Once you have all the repos, you can do stuff like:
+
+    find heads -type f -print0 | xargs -0 grep -F SHA512
+
 It takes a while, so click here for a soundtrack:
 
 [![Front 242: Headhunter](http://img.youtube.com/vi/m1cRGVaJF7Y/0.jpg)](http://www.youtube.com/watch?v=m1cRGVaJF7Y)
