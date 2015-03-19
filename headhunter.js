@@ -58,7 +58,7 @@ async.series([
         if (result) {
           for(var i=0;i<result.length;++i) {
             if ((!result[i].fork)&&(result[i].full_name)) {
-              console.log("git clone '"+result[i].full_name+"' './heads/"+location+"/"+result[i].full_name+"'");
+              console.log("git clone 'https://github.com/"+result[i].full_name+"' './heads/"+location+"/"+result[i].full_name+"'");
               console.log("sleep 30");
             }
           }
