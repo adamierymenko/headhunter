@@ -1,0 +1,16 @@
+{
+  "name": "headhunter",
+  "version": "0.1.0",
+  "description": "Utility to pull all non-forked GitHub repositories by geographic location",
+  "main": "headhunter.js",
+  "scripts": {
+    "start": "node headhunter.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "adam.ierymenko@zerotier.com",
+  "license": "BSD",
+  "dependencies": {
+    "async": "^0.9.0",
+    "github": "^0.2.3"
+  }
+}
