@@ -25,7 +25,7 @@ Examples:
 
 You get the idea.
 
-Node that some place names might not be unique, so you'll still have to
+Note that some place names might not be unique, so you'll still have to
 more deeply research anyone who matches to make sure they're actually where
 you think they are.
 
